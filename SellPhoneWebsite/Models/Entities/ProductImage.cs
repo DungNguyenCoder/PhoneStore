@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace SellPhoneWebsite.Models.Entities;
-
-public partial class ProductImage
+﻿namespace SellPhoneWebsite.Models.Entities
 {
-    public int Id { get; set; }
+    public class ProductImage
+    {
+        public int ID { get; set; }
+        public string URL { get; set; } = null!;
 
-    public string Url { get; set; } = null!;
-
-    public int ProductId { get; set; }
-
-    public virtual Product Product { get; set; } = null!;
+        public int ProductID { get; set; }
+        public Product? Product { get; set; }
+    }
 }

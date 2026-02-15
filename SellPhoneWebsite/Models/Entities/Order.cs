@@ -1,21 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SellPhoneWebsite.Models.Entities;
-
-public partial class Order
+namespace SellPhoneWebsite.Models.Entities
 {
-    public int Id { get; set; }
+    public class Order
+    {
+        public int ID { get; set; }
+        public DateTime CreateAt { get; set; }
+        public decimal TotalPrice { get; set; }
+        public string Status { get; set; } = null!;
 
-    public DateTime CreateAt { get; set; }
+        public int UserID { get; set; }
+        public ApplicationUser? User { get; set; }
 
-    public decimal TotalPrice { get; set; }
-
-    public string Status { get; set; } = null!;
-
-    public int UserId { get; set; }
-
-    public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
-
-    public virtual User User { get; set; } = null!;
+        public ICollection<OrderItem>? OrderItems { get; set; }
+    }
 }

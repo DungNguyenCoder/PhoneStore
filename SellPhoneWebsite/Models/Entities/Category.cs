@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SellPhoneWebsite.Models.Entities;
-
-public partial class Category
+namespace SellPhoneWebsite.Models.Entities
 {
-    public int Id { get; set; }
+    public class Category
+    {
+        public int ID { get; set; }
+        public string Name { get; set; } = null!;
+        public DateTime CreateAt { get; set; }
 
-    public string Name { get; set; } = null!;
-
-    public DateTime CreateAt { get; set; }
-
-    public virtual ICollection<Product> Products { get; set; } = new List<Product>();
+        public ICollection<Product>? Products { get; set; }
+    }
 }
