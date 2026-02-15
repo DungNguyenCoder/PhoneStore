@@ -23,4 +23,14 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.23" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\assets\.DS_Store" />
+    <None Include="wwwroot\assets\css\.DS_Store" />
+    <None Include="wwwroot\assets\img\.DS_Store" />
+    <None Include="wwwroot\assets\img\organic-food\.DS_Store" />
+    <None Include="wwwroot\assets\js\.DS_Store" />
+    <None Include="wwwroot\assets\Karma Shop-doc\.DS_Store" />
+    <None Include="wwwroot\assets\scss\.DS_Store" />
+  </ItemGroup>
+
 </Project>
