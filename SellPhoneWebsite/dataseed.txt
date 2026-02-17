@@ -1,0 +1,494 @@
+﻿USE [phone_store]
+GO
+SET IDENTITY_INSERT [dbo].[Category] ON 
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (1, N'Apple', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (2, N'Samsung', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (3, N'Xiaomi', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (4, N'Oppo', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (5, N'Vivo', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (6, N'Realme', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (7, N'Honor', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (8, N'Google', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (9, N'OnePlus', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (10, N'Huawei', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (11, N'Motorola', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (12, N'Nothing', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (13, N'POCO', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (14, N'Sony', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (15, N'Asus', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (16, N'iQOO', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (17, N'Nubia', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (18, N'ZTE', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (19, N'Transsion', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+INSERT [dbo].[Category] ([ID], [Name], [CreateAt]) VALUES (20, N'CMF', CAST(N'2026-02-16T08:47:40.740' AS DateTime))
+GO
+SET IDENTITY_INSERT [dbo].[Category] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Product] ON 
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (204, N'iPhone 17 Pro Max', N'Flagship 2025 camera 48MP, chip A19, màn hình 6.9 inch ProMotion', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 45, 1, CAST(48000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (205, N'iPhone 17 Pro', N'Titan frame, AI nâng cao, camera tele 5x', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 1, CAST(41000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (206, N'iPhone 17', N'Tiêu chuẩn 2025 hiệu năng mạnh, pin tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 110, 1, CAST(29000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (207, N'iPhone 17 Air', N'Phiên bản mỏng nhẹ thiết kế mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 55, 1, CAST(34000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (208, N'iPhone 16 Pro Max', N'Vẫn hot camera nâng cấp 2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 35, 1, CAST(38000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (209, N'iPhone 16 Pro', N'Pro compact vẫn bán chạy', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 60, 1, CAST(32000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (210, N'iPhone 16', N'Tiêu chuẩn 2024-2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 1, CAST(25000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (211, N'iPhone 16 Plus', N'Màn hình lớn pin khủng', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 1, CAST(28000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (212, N'iPhone 16e', N'Phiên bản giá rẻ 2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 120, 1, CAST(20000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (213, N'iPhone 17e', N'Entry-level nâng cấp đầu 2026', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 1, CAST(22000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (214, N'Galaxy S25 Ultra', N'Flagship 2025 camera 200MP S Pen Snapdragon 8 Elite', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 65, 2, CAST(39000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (215, N'Galaxy S25', N'Tiêu chuẩn S25 AI Galaxy', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 95, 2, CAST(23000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (216, N'Galaxy S25 Plus', N'Cân bằng kích thước pin', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 85, 2, CAST(29000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (217, N'Galaxy Z Fold 7', N'Foldable mỏng nhất 2025 màn hình lớn', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 30, 2, CAST(58000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (218, N'Galaxy Z Flip 7', N'Clamshell thời trang 2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 2, CAST(29000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (219, N'Galaxy S25 FE', N'Fan Edition giá tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 120, 2, CAST(18000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (220, N'Galaxy A56 5G', N'Mid-range 2025 pin lớn', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 140, 2, CAST(12000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (221, N'Galaxy A36 5G', N'Mid-range phổ thông', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 130, 2, CAST(9000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (222, N'Galaxy S25 Edge', N'Phiên bản mỏng nhẹ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 55, 2, CAST(35000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (223, N'Galaxy M56', N'Pin khủng giá rẻ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 110, 2, CAST(10000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (224, N'Galaxy A26 5G', N'Entry-level mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 150, 2, CAST(8000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (225, N'Galaxy Z Flip 7 FE', N'Foldable FE phiên bản', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 40, 2, CAST(25000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (226, N'Xiaomi 15 Ultra', N'Camera đỉnh cao 2025 cảm biến lớn', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 3, CAST(32000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (227, N'Xiaomi 15 Pro', N'Flagship cân bằng Snapdragon 8 Elite', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 75, 3, CAST(26000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (228, N'Xiaomi 15', N'Tiêu chuẩn 2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 3, CAST(22000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (229, N'Xiaomi 15T Pro', N'Mid-flagship Leica camera', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 105, 3, CAST(19000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (230, N'Redmi Note 15 Pro+', N'Mid-range pin khủng', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 130, 3, CAST(11000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (231, N'Redmi Note 15 5G', N'Giá rẻ hiệu năng tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 150, 3, CAST(8000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (232, N'Xiaomi Mix Fold 4', N'Foldable mỏng 2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 35, 3, CAST(48000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (233, N'Xiaomi 15T', N'Phiên bản T tiêu chuẩn', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 3, CAST(17000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (234, N'Redmi 14C', N'Entry-level giá rẻ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 140, 3, CAST(7000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (235, N'Xiaomi 14T Pro', N'Nâng cấp trước vẫn bán', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 3, CAST(20000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (236, N'Pixel 10 Pro XL', N'AI mạnh camera xuất sắc 2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 60, 4, CAST(33000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (237, N'Pixel 10 Pro', N'Compact Pro', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 4, CAST(29000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (238, N'Pixel 10', N'Tiêu chuẩn Pixel 10', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 4, CAST(24000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (239, N'Pixel 10 Pro Fold', N'Foldable Pixel 2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 25, 4, CAST(50000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (240, N'Pixel 9a', N'Mid-range giá tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 130, 4, CAST(15000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (241, N'Pixel Fold 2', N'Foldable nâng cấp', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 40, 4, CAST(52000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (242, N'Pixel 10a', N'Phiên bản a mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 110, 4, CAST(14000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (243, N'Pixel 9 Pro XL', N'Phiên bản trước hot', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 4, CAST(28000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (244, N'Pixel 9', N'Tiêu chuẩn 2024-2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 4, CAST(22000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (245, N'Pixel 9a Pro', N'Mid-range Pro', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 4, CAST(18000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (246, N'OnePlus 15', N'Flagship 2025 sạc nhanh 100W', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 5, CAST(25000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (247, N'OnePlus 15 Pro', N'Phiên bản Pro cao cấp', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 55, 5, CAST(30000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (248, N'OnePlus 15R', N'Value flagship', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 85, 5, CAST(20000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (249, N'OnePlus Nord 5', N'Mid-range tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 120, 5, CAST(14000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (250, N'OnePlus Open 2', N'Foldable 2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 30, 5, CAST(55000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (251, N'OnePlus 13', N'Phiên bản trước vẫn bán', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 60, 5, CAST(22000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (252, N'OnePlus Ace 5', N'Gaming series', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 95, 5, CAST(18000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (253, N'OnePlus Nord CE 5', N'Giá rẻ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 140, 5, CAST(11000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (254, N'OnePlus 15T', N'Turbo version', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 75, 5, CAST(24000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (255, N'OnePlus Pad Phone', N'Hybrid concept mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 20, 5, CAST(38000000.00 AS Decimal(12, 2)), N'not available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (256, N'Oppo Find X9 Pro', N'Camera Hasselblad đỉnh cao', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 6, CAST(28000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (257, N'Oppo Find N5', N'Foldable mỏng 2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 35, 6, CAST(52000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (258, N'Oppo Reno 15', N'Mid-range camera tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 6, CAST(16000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (259, N'Oppo Find X8 Ultra', N'Ultra trước vẫn hot', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 45, 6, CAST(30000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (260, N'Oppo Reno 15 Pro', N'Pro mid-range', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 6, CAST(18000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (261, N'Oppo Find N5 Flip', N'Clamshell fold', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 40, 6, CAST(30000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (262, N'Oppo Reno 14', N'Nâng cấp Reno', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 95, 6, CAST(15000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (263, N'Oppo Find X9', N'Tiêu chuẩn X9', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 65, 6, CAST(24000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (264, N'Oppo A series 2026', N'Entry-level mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 130, 6, CAST(9000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (265, N'Oppo K13x', N'Gaming mid', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 110, 6, CAST(13000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (266, N'Vivo X300 Pro', N'Camera Zeiss hàng đầu', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 55, 7, CAST(27000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (267, N'Vivo X200 Ultra', N'Ultra camera 2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 40, 7, CAST(32000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (268, N'Vivo V70', N'Mid-range tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 7, CAST(14000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (269, N'Vivo X300', N'Tiêu chuẩn X300', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 7, CAST(25000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (270, N'Vivo X Fold 4', N'Foldable Vivo', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 30, 7, CAST(48000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (271, N'Vivo X200 Pro', N'Pro trước vẫn bán', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 60, 7, CAST(28000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (272, N'Vivo S series 2026', N'Selfie focus', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 7, CAST(12000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (273, N'Vivo T4', N'Mid-range mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 85, 7, CAST(11000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (274, N'Vivo Y series 2026', N'Giá rẻ phổ thông', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 150, 7, CAST(8000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (275, N'Vivo X300s', N'Phiên bản s mỏng', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 75, 7, CAST(26000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (276, N'Honor Magic 8 Pro', N'Flagship Honor 2025-2026', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 60, 8, CAST(24000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (277, N'Honor Magic V5', N'Foldable book-style', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 35, 8, CAST(50000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (278, N'Honor 400 Pro', N'Mid-flagship mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 8, CAST(18000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (279, N'Honor Magic 7 Pro', N'Pro trước hot', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 8, CAST(22000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (280, N'Honor 300', N'Tiêu chuẩn mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 8, CAST(15000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (281, N'Honor GT Pro', N'Gaming series', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 8, CAST(16000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (282, N'Honor Magic Vs3', N'Foldable nhẹ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 45, 8, CAST(45000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (283, N'Honor 90 GT', N'GT series', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 8, CAST(13000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (284, N'Honor Play 70', N'Play series giá rẻ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 110, 8, CAST(10000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (285, N'Honor X series 2026', N'Entry-level', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 140, 8, CAST(9000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (286, N'Huawei Pura 80 Ultra', N'Camera XMAGE đỉnh cao', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 40, 9, CAST(34000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (287, N'Huawei Mate 70 Pro', N'Flagship Huawei 2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 45, 9, CAST(30000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (288, N'Huawei Pura 80', N'Tiêu chuẩn Pura', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 55, 9, CAST(28000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (289, N'Huawei Mate XT', N'Tri-fold đột phá', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 25, 9, CAST(75000000.00 AS Decimal(12, 2)), N'not available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (290, N'Huawei nova 13', N'Mid-range camera tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 9, CAST(15000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (291, N'Huawei Enjoy 70', N'Pin khủng giá rẻ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 120, 9, CAST(9000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (292, N'Huawei Pura 80 Pro', N'Pro phiên bản', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 9, CAST(32000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (293, N'Huawei Mate 60 Pro', N'Phiên bản trước vẫn bán', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 60, 9, CAST(25000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (294, N'Huawei nova Y series', N'Entry-level', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 130, 9, CAST(8000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (295, N'Huawei Watch Phone hybrid', N'Concept mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 30, 9, CAST(38000000.00 AS Decimal(12, 2)), N'disable')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (296, N'Motorola Razr Ultra 2025', N'Foldable clamshell cao cấp', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 65, 10, CAST(30000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (297, N'Motorola Edge 50 Pro', N'Mid-flagship camera tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 10, CAST(18000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (298, N'Motorola Razr 70', N'Clamshell giá tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 10, CAST(22000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (299, N'Motorola Edge 60', N'Nâng cấp Edge', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 10, CAST(20000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (300, N'Motorola G series 2026', N'Giá rẻ bền bỉ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 140, 10, CAST(9000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (301, N'Motorola Razr 50 Ultra', N'Phiên bản trước hot', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 40, 10, CAST(28000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (302, N'Motorola Edge 50 Fusion', N'Mid-range cân bằng', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 10, CAST(14000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (303, N'Motorola Moto G Power 2026', N'Pin khủng', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 110, 10, CAST(11000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (304, N'Motorola Razr+ 2025', N'Phiên bản plus', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 45, 10, CAST(32000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (305, N'Motorola Defy 2', N'Bền bỉ chống nước', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 10, CAST(16000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (306, N'Nubia Z80 Ultra', N'Gaming phone camera dưới màn hình', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 45, 11, CAST(22000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (307, N'RedMagic 11 Pro', N'Gaming đỉnh cao quạt tản nhiệt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 55, 11, CAST(23000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (308, N'Nubia Z70 Ultra', N'Flagship Nubia mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 11, CAST(25000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (309, N'RedMagic 10 Pro', N'Phiên bản trước gaming', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 60, 11, CAST(20000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (310, N'Nubia Focus Pro', N'Camera focus mid-range', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 11, CAST(15000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (311, N'RedMagic 9S Pro', N'Gaming cũ hot', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 11, CAST(18000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (312, N'Nubia Music', N'Loa kép chuyên nhạc', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 11, CAST(12000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (313, N'RedMagic Tablet Gaming', N'Gaming tablet hybrid', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 30, 11, CAST(35000000.00 AS Decimal(12, 2)), N'not available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (314, N'Nubia Pad 3D', N'Màn hình 3D', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 40, 11, CAST(28000000.00 AS Decimal(12, 2)), N'disable')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (315, N'Nubia Z series entry', N'Entry-level Nubia', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 11, CAST(10000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (316, N'iQOO 15', N'Gaming flagship Snapdragon', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 12, CAST(21000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (317, N'iQOO 13', N'Phiên bản trước hot', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 65, 12, CAST(19000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (318, N'iQOO Neo 10', N'Mid-gaming sạc nhanh', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 85, 12, CAST(16000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (319, N'iQOO 12 Pro', N'Pro gaming', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 12, CAST(24000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (320, N'iQOO Z9 Turbo', N'Value gaming', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 12, CAST(13000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (321, N'iQOO 15 Pro', N'Pro version', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 55, 12, CAST(25000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (322, N'iQOO Neo 9S', N'Nâng cấp Neo', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 12, CAST(14000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (323, N'iQOO Pad 2', N'Tablet gaming', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 40, 12, CAST(18000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (324, N'iQOO Watch', N'Smartwatch hybrid', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 12, CAST(8000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (325, N'iQOO Z series 2026', N'Entry gaming', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 120, 12, CAST(11000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (326, N'Nothing Phone 3', N'Glyph interface mới thiết kế độc đáo', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 13, CAST(18000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (327, N'Nothing Phone 3a', N'Phiên bản a giá tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 13, CAST(14000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (328, N'Nothing Phone 2a Plus', N'Mid-range trước hot', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 13, CAST(12000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (329, N'Nothing CMF Phone 2 Pro', N'Sub-brand giá rẻ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 110, 13, CAST(13000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (330, N'Nothing Ear Phone hybrid', N'Concept mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 13, CAST(20000000.00 AS Decimal(12, 2)), N'not available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (331, N'Nothing Phone 2', N'Phiên bản trước vẫn bán', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 13, CAST(16000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (332, N'Nothing Phone 1 refresh', N'Refresh cũ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 60, 13, CAST(10000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (333, N'Nothing Tablet', N'Tablet Glyph', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 40, 13, CAST(22000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (334, N'Nothing Phone 3 Pro', N'Pro version', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 55, 13, CAST(22000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (335, N'Nothing CMF Buds Pro', N'Accessories hybrid', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 120, 13, CAST(5000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (336, N'POCO F8 Ultra', N'High performance gaming', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 14, CAST(17000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (337, N'POCO F8 Pro', N'Pro flagship giá tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 14, CAST(19000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (338, N'POCO X7 Pro', N'Value gaming Dimensity', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 115, 14, CAST(14000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (339, N'POCO M8 Pro 5G', N'Mid-range mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 120, 14, CAST(9500000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (340, N'POCO F7 Ultra', N'Ultra gaming', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 14, CAST(20000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (341, N'POCO M7 Pro', N'Mid-range pin tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 14, CAST(11000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (342, N'POCO C85', N'Entry-level giá rẻ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 150, 14, CAST(7000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (343, N'POCO F7 Pro', N'Flagship Snapdragon', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 65, 14, CAST(18000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (344, N'POCO X7', N'Tiêu chuẩn X7', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 95, 14, CAST(13000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (345, N'POCO M8 5G', N'5G entry', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 130, 14, CAST(9000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (346, N'Realme GT 7 Pro', N'Flagship giá rẻ hiệu năng cao', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 15, CAST(19000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (347, N'Realme GT Neo 7', N'Mid-gaming', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 85, 15, CAST(15000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (348, N'Realme 13 Pro+', N'Camera mid-range', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 15, CAST(12000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (349, N'Realme Narzo 80', N'Gaming giá rẻ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 110, 15, CAST(10000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (350, N'Realme GT 6', N'Phiên bản trước hot', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 15, CAST(16000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (351, N'Realme C series 2026', N'Entry-level', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 140, 15, CAST(8000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (352, N'Realme 14 Pro', N'Pro mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 15, CAST(14000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (353, N'Realme Book Phone hybrid', N'Concept laptop-phone', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 30, 15, CAST(35000000.00 AS Decimal(12, 2)), N'not available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (354, N'Realme Buds Air Pro', N'Accessories', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 120, 15, CAST(6000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (355, N'Realme GT 7', N'Tiêu chuẩn GT 7', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 95, 15, CAST(18000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (356, N'Sony Xperia 1 VII', N'Camera pro 4K màn hình cinema', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 40, 16, CAST(32000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (357, N'Sony Xperia 5 VI', N'Compact pro', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 16, CAST(25000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (358, N'Sony Xperia 10 VII', N'Mid-range bền bỉ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 16, CAST(15000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (359, N'Sony Xperia 1 VI', N'Phiên bản trước hot', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 45, 16, CAST(30000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (360, N'Sony Xperia Pro-I II', N'Pro camera nâng cao', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 30, 16, CAST(40000000.00 AS Decimal(12, 2)), N'not available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (361, N'Sony Xperia Ace series', N'Entry Nhật Bản', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 16, CAST(12000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (362, N'Sony Xperia 5 V', N'Compact cũ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 60, 16, CAST(22000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (363, N'Sony PlayLink Phone', N'Gaming hybrid', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 35, 16, CAST(28000000.00 AS Decimal(12, 2)), N'disable')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (364, N'Sony Xperia 10 VI', N'Mid 2025', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 16, CAST(14000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (365, N'Sony Xperia 1 VI refresh', N'Refresh', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 55, 16, CAST(31000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (366, N'Asus ROG Phone 10 Pro', N'Gaming đỉnh cao quạt tản nhiệt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 17, CAST(38000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (367, N'Asus ROG Phone 9', N'Phiên bản trước hot', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 45, 17, CAST(35000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (368, N'Asus Zenfone 12 Ultra', N'Compact flagship', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 60, 17, CAST(28000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (369, N'Asus ROG Phone 10', N'Tiêu chuẩn gaming', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 55, 17, CAST(32000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (370, N'Asus Zenfone 11', N'Mid-high', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 17, CAST(20000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (371, N'Asus ROG Ally X Phone', N'Hybrid gaming', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 30, 17, CAST(40000000.00 AS Decimal(12, 2)), N'not available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (372, N'Asus Pad Phone', N'Tablet hybrid', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 40, 17, CAST(30000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (373, N'Asus Zenfone Max Pro', N'Pin khủng', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 17, CAST(15000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (374, N'Asus ROG 10 series entry', N'Entry gaming', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 17, CAST(18000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (375, N'Asus Zenfone 12', N'Tiêu chuẩn mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 65, 17, CAST(25000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (376, N'ZTE nubia RedMagic 11 Pro', N'Gaming ZTE cao cấp', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 55, 18, CAST(23000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (377, N'ZTE Axon 60 Ultra', N'Flagship ZTE', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 50, 18, CAST(26000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (378, N'ZTE Blade V series 2026', N'Entry-level', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 120, 18, CAST(9000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (379, N'ZTE nubia Z70 Ultra', N'Camera dưới màn hình', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 45, 18, CAST(22000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (380, N'ZTE Axon 50', N'Mid-range', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 18, CAST(14000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (381, N'ZTE nubia Flip', N'Foldable clamshell', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 35, 18, CAST(28000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (382, N'ZTE Voyage series', N'Giá rẻ', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 18, CAST(10000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (383, N'ZTE RedMagic 10', N'Gaming trước', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 60, 18, CAST(20000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (384, N'ZTE Axon Fold', N'Foldable ZTE', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 25, 18, CAST(45000000.00 AS Decimal(12, 2)), N'not available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (385, N'ZTE nubia Music', N'Loa kép', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 18, CAST(12000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (386, N'Infinix Zero Ultra 2026', N'Pin khủng camera tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 120, 19, CAST(12000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (387, N'Tecno Phantom V Fold 2', N'Foldable giá tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 40, 19, CAST(30000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (388, N'Infinix Note 50 Pro', N'Mid-range Infinix', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 19, CAST(11000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (389, N'Tecno Camon 40', N'Camera selfie', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 19, CAST(10000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (390, N'Itel S series 2026', N'Entry-level', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 150, 19, CAST(6000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (391, N'Infinix GT 30 Pro', N'Gaming Infinix', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 70, 19, CAST(15000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (392, N'Tecno Spark 30', N'Giá rẻ phổ thông', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 130, 19, CAST(8000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (393, N'Infinix Hot 50', N'Hot series', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 110, 19, CAST(9000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (394, N'Tecno Pova 7', N'Pin khủng gaming', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 19, CAST(13000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (395, N'Infinix Zero Flip', N'Foldable Infinix', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 35, 19, CAST(25000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (396, N'CMF Phone 2 Pro', N'Nothing sub-brand giá rẻ thiết kế độc đáo', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 110, 20, CAST(13000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (397, N'CMF Phone 1', N'Phiên bản đầu tiên hot', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 100, 20, CAST(10000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (398, N'CMF Buds Pro 2', N'Tai nghe hybrid', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 120, 20, CAST(5000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (399, N'CMF Watch Pro 2', N'Smartwatch giá tốt', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 90, 20, CAST(7000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (400, N'CMF Neckband Pro', N'Accessories', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 130, 20, CAST(4000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (401, N'CMF Phone 2', N'Nâng cấp Phone 2', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 95, 20, CAST(12000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (402, N'CMF Nothing Ear', N'Tai nghe flagship', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 80, 20, CAST(6000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (403, N'CMF Power Bank', N'Phụ kiện pin', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 140, 20, CAST(3000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (404, N'CMF Phone Pro', N'Pro version', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 85, 20, CAST(15000000.00 AS Decimal(12, 2)), N'Available')
+GO
+INSERT [dbo].[Product] ([ID], [Name], [Description], [CreateAt], [Quantity], [CategoryID], [Price], [Status]) VALUES (405, N'CMF 2026 series entry', N'Entry mới', CAST(N'2026-02-16T08:47:45.063' AS DateTime), 115, 20, CAST(9000000.00 AS Decimal(12, 2)), N'Available')
+GO
+SET IDENTITY_INSERT [dbo].[Product] OFF
+GO
+SET IDENTITY_INSERT [dbo].[AspNetUsers] ON 
+GO
+INSERT [dbo].[AspNetUsers] ([Id], [Address], [FullName], [CreatedDate], [UserName], [NormalizedUserName], [Email], [NormalizedEmail], [EmailConfirmed], [PasswordHash], [SecurityStamp], [ConcurrencyStamp], [PhoneNumber], [PhoneNumberConfirmed], [TwoFactorEnabled], [LockoutEnd], [LockoutEnabled], [AccessFailedCount]) VALUES (1, NULL, NULL, CAST(N'0001-01-01T00:00:00.0000000' AS DateTime2), N'player7377@gmail.com', N'PLAYER7377@GMAIL.COM', N'player7377@gmail.com', N'PLAYER7377@GMAIL.COM', 0, N'AQAAAAIAAYagAAAAEPqgg81VCrvlgu0p14DOHSQqqoQl/msiHYSJ2RhyAAFtaSBq45C6Iu6ibwRhTKiXAg==', N'AI32ZGFLWUQYDFSXGE3Q2FHTWYPH6OJ2', N'363a267f-b48d-4d3d-9a6c-2646358b5a14', NULL, 0, 0, NULL, 1, 0)
+GO
+SET IDENTITY_INSERT [dbo].[AspNetUsers] OFF
+GO
+SET IDENTITY_INSERT [dbo].[ProductImage] ON 
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (1, N'https://cdn-media.sforum.vn/storage/app/media/trannghia/trannghia1/so-sanh-iphone-17-pro-va-17-pro-max-cover.jpg', 204)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (2, N'https://iphonethanhnhan.vn/upload/filemanager/iphone%2017/iphone-17-pro-max.jpg', 204)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (3, N'https://img.youtube.com/vi/3s49ddWEluo/maxresdefault.jpg', 204)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (4, N'https://didongviet.vn/dchannel/wp-content/uploads/2025/10/phu-kien-iphone-17-pro-max-mau-cam-vu-tru-didongviet.jpg', 204)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (5, N'https://hugotech.vn/wp-content/uploads/iPhone-17-Pro-Cam-Vu%CC%83-Tru%CC%A320-600x600.jpg', 205)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (6, N'https://thoibaonganhang.vn/stores/news_dataimages/2025/092025/10/11/iphone-17-propro-max-tai-viet-nam-tang-gia-manh-khoi-diem-tu-35-trieu-dong-20250910111532.png?rt=20250910111534', 205)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (8, N'https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone_17_256gb-3_2.jpg', 206)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (9, N'https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-17-256gb.jpg', 206)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (10, N'https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-17-256gb-1.jpg', 206)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (11, N'https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-17-256gb-4.jpg', 206)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (12, N'https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-air-256gb.jpg', 207)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (13, N'https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-17-256gb-4.jpg', 207)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (14, N'https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-air-256gb-1.jpg', 207)
+GO
+INSERT [dbo].[ProductImage] ([ID], [URL], [ProductID]) VALUES (15, N'https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-air-256gb-4.jpg', 207)
+GO
+SET IDENTITY_INSERT [dbo].[ProductImage] OFF
+GO
+INSERT [dbo].[__EFMigrationsHistory] ([MigrationId], [ProductVersion]) VALUES (N'20260215010047_init', N'8.0.24')
+GO
